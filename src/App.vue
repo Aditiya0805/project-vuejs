@@ -3,6 +3,9 @@ import LogoKampus from '@/components/LogoKampus.vue'
 import LogoKampusBesar from '@/components/LogoKampusBesar.vue'
 import IdentitasKampus from '@/components/IdentitasKampus.vue'
 import DaftarMahasiswa from '@/components/DaftarMahasiswa.vue'
+import Interpolasi from '@/components/Interpolasi.vue' 
+import Vbin from '@/components/Vbin.vue'
+import Vmodel from '@/components/Vmodel.vue'
 </script>
 
 <template>
@@ -10,11 +13,16 @@ import DaftarMahasiswa from '@/components/DaftarMahasiswa.vue'
     <h1>Halo, Vue!</h1>
     <p>Dibuat oleh: Aditiya Pratama</p>
     <p>Mata kuliah: Pemrograman Web 2</p>
+    <p>Kelas: 24A-Informatika</p>
+    <p>Npm: 24312126</p>
 
     <LogoKampus />
     <LogoKampusBesar />
     <IdentitasKampus />
     <DaftarMahasiswa />
+    <Interpolasi />
+    <Vbin />
+    <Vmodel />
   </main>
 </template>
 
