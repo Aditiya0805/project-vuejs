@@ -6,6 +6,8 @@ import DaftarMahasiswa from '@/components/DaftarMahasiswa.vue'
 import Interpolasi from '@/components/Interpolasi.vue' 
 import Vbin from '@/components/Vbin.vue'
 import Vmodel from '@/components/Vmodel.vue'
+import KlasifikasiNilai from '@/components/KlasifikasiNilai.vue'
+import EksperimenToggle from '@/components/EksperimenToggle.vue'
 </script>
 
 <template>
@@ -23,6 +25,8 @@ import Vmodel from '@/components/Vmodel.vue'
     <Interpolasi />
     <Vbin />
     <Vmodel />
+    <KlasifikasiNilai />  
+    <EksperimenToggle />
   </main>
 </template>
 
